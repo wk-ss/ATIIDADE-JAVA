@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class repediçao {
+
+	public static void main(String[] args) {
+		Scanner f =new Scanner (System.in);
+int n=0;
+System.out.println("digite o numeor:");
+n=f.nextInt();
+for (int z=0;z<11;z++) {
+System.out.printf(" %d X %d = %d\n",n,z,(n*z));	
+}
+	}
+	}
